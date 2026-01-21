@@ -1,0 +1,63 @@
+# =========================
+# Python
+# =========================
+app/__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environment
+# =========================
+venv/
+.env/
+.env.*
+ENV/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Machine Learning modeli
+# =========================
+fashion_mobilenetv2_finetuned.keras
+fashion_mobilenetv2.h5
+
+# =========================
+# Datasetovi & slike
+# =========================
+dataset/
+dataset2/
+fashion-dataset/
+images/
+images_compressed/
+test_images/
+temp/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# Ako želiš zadržati strukturu foldera:
+# !datasets/.gitkeep
+# !images/.gitkeep
+
+# =========================
+# Logovi & privremene datoteke
+# =========================
+*.log
+*.tmp
+*.cache
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+
+build/
+dist/
+*.egg-info/
